@@ -1,0 +1,25 @@
+ <?php
+                                        $res = getReport($voltex);
+                                       if($res == "noitem"){
+                                           echo '<li>'."No Item".'</li>';
+                                       }
+                                       else{
+                                           for($i = 0 ; $i < count($res) ; $i++) {
+                                            $action = "";
+                                               if($action == 1){
+                                                   $action = "added";
+                                               }
+                                               else if ($action == 2){
+                                                   $action ="deleted";
+                                               }
+                                               else {
+                                                   $action ="updated";
+                                               }
+                                            echo '<li>';
+                                            echo '<p>'. '<strong>'
+                                                  .$res[$i]['item_code'].  
+                                                  '</strong>'."has been ".$action." on ".$res[$i]['date'].'</p>';
+                                            echo '</li>';
+                                           }
+                                       }
+                                       ?>

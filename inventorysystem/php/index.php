@@ -1,0 +1,9 @@
+<?php
+    session_start();
+    if(isset($_SESSION['account'])){
+        header("Location:inventoryviewing.php");
+    }
+    else{
+        header("Location:inventorylogin.php");
+    }
+?>

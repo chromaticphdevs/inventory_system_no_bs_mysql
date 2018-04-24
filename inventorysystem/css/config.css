@@ -1,0 +1,182 @@
+ *{
+                box-sizing: border-box;
+            }
+            :root{
+                --common-gutter:50px;
+            }
+.main-footer{
+    height: 70px;
+    background-color: #b1b1b1;
+    padding: 2px 10px;
+}
+.main-footer p{
+    text-align: center;
+    font-size: 10pt;
+}
+.main-footer .mybrand{
+    color: #014782;
+    font-weight: bold;
+}
+.h-title{
+    color: #42729a;
+}
+#myalert{
+    background-color: #d83c00;
+    color: #fff;
+    color: bold;
+    font-family: "tahoma";
+}
+
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: "raleway","tahoma","Trebuchet MS", sans-serif;
+                background-color: #e6e6e6;
+            }
+            .navigation{
+                width: 100%;
+                background-color: #4f5e63;
+                color: #fff;
+                min-height: 50px;
+                max-height: 60px;
+                position: fixed;
+                top: 0px;
+                z-index: 2;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap; /* Important */
+                padding: 5px;
+                flex-direction: row;
+            }
+            .side-1,.middle,.side-2{
+                background-color: #fff;
+                justify-content: space-between;
+                margin: 5px; /* Important */
+                min-height: 80vh;
+            }
+            .scroll{
+                overflow: scroll;
+            }
+            .flex-1{
+                flex: 1;
+            }
+            .flex-2{
+                flex: 2;
+            }
+            .flex-3{
+                flex: 3;
+            }
+            .flex-4{
+                flex: 4;
+            }
+            .content{
+                padding: 0px var(--common-gutter);
+            }
+
+/* Buttons */
+            .butn{
+                border: 3px solid #e4e4e4;
+                padding: 5px 10px;
+                border-radius: 5px;
+                background-color: #c5c5c5;
+                color: #fff;
+                cursor: pointer;
+            }
+            .butn-success{
+                background-color: #6ba003;
+            }
+            .butn-danger{
+                background-color: #ba0004;
+            }
+            .butn-warning{
+                background-color: #d83c00;
+            }
+            .butn-primary{
+                background-color: #004881;
+            }
+            .butn-sm{
+                min-width: 80px;
+                width: auto;
+                height: 30px;
+            }
+            .butn-md{
+                min-width: 90px;
+                width:auto;
+                height:40px;
+            }
+            .butn-lg{
+                min-width: 100px;
+                width: auto;
+                height: 50px;
+            }
+
+/* */
+.form  input , .form  select , .form textarea{
+                border: 1px solid #e6e6e6;
+                padding: 2px;
+                font-family: "tahoma",sans-serif;
+                padding: 2px 5px;
+                min-height: 30px;
+                font-size: 11pt;
+                min-width: 300px;
+                border-radius: 5px;
+            }
+.form input::placeholder,.form select, .form date, .form textarea{
+    color: #4f5e63;
+}
+            .form textarea{
+                min-height: 200px;
+            }
+            .form table th{
+                color: #d83c00;
+            }
+            .form > .form-group{
+                border: 1px solid red;
+                margin-bottom: 5px;
+            }
+            .form .label{
+                font-size: 10pt;
+                font-weight: bold;
+                color: #004881;
+            }
+            .form > .form-group label{
+                font-size: 10pt;
+            }
+            .form > input .input-sm{
+                height: 30px;
+            }
+            .label-control{
+                width: 30%;
+            }
+            .div-control{
+                width: 65%:
+            }
+            .form table{
+                border-collapse: collapse;
+            }
+            .form table td {
+                padding: 10px;
+            }
+            .form table tr{
+                
+            }
+            .form table tr:first-child{
+                border-bottom: 0px;
+            }
+            .flex-center{
+                justify-content: center;
+            }
+            .flex-around{
+                justify-content: space-around;
+            }
+            .flex-align-center{
+                align-items:flex-end;
+            }
+            .flex-content-center{
+                align-content: center;
+            }
+
+/*
+NAVIGATION
+*/

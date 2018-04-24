@@ -1,0 +1,79 @@
+.viewing{
+                font-family: "tahoma";
+                font-size: 10pt;
+            }
+            .viewing table {
+                box-sizing: border-box;
+                width: 100%;
+                height: 500px;
+                overflow-y: scroll;
+                display: block;
+            }
+            .viewing table th{
+                color: #d83c00;
+            }
+            .viewing table td{
+                border-bottom: 2px solid #484848;
+                margin-top: 10px;
+                width: 10%;
+                vertical-align: center;
+                text-align: center;
+                color: #004881;
+            }
+            .viewing table img {
+                width: 80px;
+            }
+            .navigation-tool{
+                text-align: center;
+            }
+            .navigation-tool input{
+                width: 100%;
+                padding: 5px 10px;
+                border-radius: 5px;
+                font-size: 12pt;
+                margin-bottom: 10px;
+                margin: 0px auto;
+            }
+            .tbl-sm table{
+                width: 80%;
+                display: block;
+                font-size: 10pt;
+                font-family: "tahoma";
+                border-radius: 10px;
+                margin: 0px auto;
+                outline: 2px solid #666;
+            }
+            .tbl-sm table input[type="text"],.tbl-sm table input[type="date"]{
+               font-size: 12pt;
+               padding: 2px 5px;
+            }
+            .tbl-sm table td{
+               font-size: 12pt;
+               padding: 2px 5px;
+                color: #d83c00;
+            }
+            .tbl-sm{
+                padding: 2px;
+            }
+            .nostyle li {
+                list-style: none;
+            }
+            .navi-tabs li {
+                display: inline-block;
+                padding: 5px;
+            }
+            .nav-base li a{
+                color: #fff;
+            }
+            .content {
+                padding-right: 0px;
+            }
+            .side-2{
+                display: none;
+            }
+            .viewing{
+                padding: 10px;
+            }
+            #item_viewing table img{
+                height: 300px;
+            }
